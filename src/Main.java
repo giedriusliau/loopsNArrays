@@ -29,7 +29,27 @@ public class Main {
 
         // 4 uzd
         System.out.println("----- 4 uzd -----");
-      //  String last = ();
+  //     String last = (name.);
+
+        // 5 uzd
+        System.out.println("----- 5 uzd -----");
+        String kint = ("An American in Paris");
+
+        // 6 uzd
+        //Sukurti kintamąjį su stringu: “An American in Paris”. Jame ištrinti visas balses.
+        // Rezultatą atspausdinti. Kodą pakartoti su stringais:
+        // “Breakfast at Tiffany's”, “2001: A Space Odyssey”
+        // ir “It's a Wonderful Life”.
+        System.out.println("----- 6 uzd -----");
+
+
+        // 7 uzd
+        System.out.println("-----7 uzd ------");
+
+        String episode = "Star Wars: Episode "+ " ".repeat( (int) (Math.random() * 10))+((int) (Math.random() * 7)+1) + " - A New Hope";
+        System.out.println(episode);
+        System.out.println(episode.charAt(episode.length() - 14));
+       // System.out.println(episode.replaceAll( regex: "[a-z ")
 
     }
 }
